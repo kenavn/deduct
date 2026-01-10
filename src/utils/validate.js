@@ -7,7 +7,7 @@ function validate(original, steps, target){
         for(i = 0; i < 4; i++) {
             current[i] = last[step[i]]
         }
-        last = [...step];
+        last = [...current];
     });
 
     let i = 0;
